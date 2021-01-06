@@ -52,6 +52,14 @@ module.exports = {
                         ['webpack/hmr', '热更新'],
                     ],
                 },
+                {
+                    title: 'HTTP',
+                    collapsable: false,
+                    children: [
+                        ['http/', 'Introduction'],
+                        ['http/cache', '缓存'],
+                    ],
+                },
             ]
         }
     }

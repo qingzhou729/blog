@@ -43,6 +43,15 @@ module.exports = {
                         ['vue2/observer', '响应式原理'],
                     ],
                 },
+                {
+                    title: 'webpack',
+                    collapsable: false,
+                    children: [
+                        ['webpack/', 'Introduction'],
+                        ['webpack/tapable', 'tapable'],
+                        ['webpack/hmr', '热更新'],
+                    ],
+                },
             ]
         }
     }

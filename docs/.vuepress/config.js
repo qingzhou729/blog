@@ -14,44 +14,36 @@ module.exports = {
         logo: '/egg.png',
         lastUpdated: 'lastUpdate',
         nav: [
-            { text: '首页', link: '/' },
+            { text: '博客汇总', link: '/study/prepare/' },
             { text: 'Github', link: 'https://github.com/qingzhou729/blog' },
         ],
         sidebar: {
-            '/pages/react/':[
+            '/study/': [
                 {
-                    title: 'react',
+                    title: '准备工作',
                     collapsable: false,
-                    sidebarDepth: 1,
                     children: [
-                        ['test1.md', '子菜单1'],
-                    ]
+                        ['prepare/', 'Introduction']
+                    ],
                 },
                 {
-                    title: '测试菜单2',
+                    title: 'React.js',
                     collapsable: false,
                     children: [
-                        ['test2.md', '子菜单1']
-                    ]
-                }
-            ],
-            '/pages/vue/':[
-                {
-                    title: 'vue',
-                    collapsable: false,
-                    sidebarDepth: 1,
-                    children: [
-                        ['test1.md', '子菜单1'],
-                    ]
+                        ['react/', 'Introduction'],
+                        ['react/2', '介绍一下'],
+                        
+                    ],
                 },
                 {
-                    title: '测试菜单2',
+                    title: 'Vue.js 2.x版本',
                     collapsable: false,
                     children: [
-                        ['test2.md', '子菜单1']
-                    ]
-                }
-            ],
+                        ['vue2/', 'Introduction'],
+                        ['vue2/observer', '响应式原理'],
+                    ],
+                },
+            ]
         }
     }
 }

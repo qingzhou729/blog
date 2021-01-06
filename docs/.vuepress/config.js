@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/test/', // 比如你的仓库是test
+    base: '/blog/', // 比如你的仓库是test
     dest: 'dist',
     title: '裂泉首页', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
     description: '裂泉的前端记录', // meta 中的描述文字，用于SEO
